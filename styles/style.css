@@ -1,1 +1,16 @@
 /* место для вашего кода */
+.header {
+  height: 293px;
+}
+
+.header__grid {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns: repeat(1fr, 3);
+  grid-template-rows: 1fr;
+}
+
+.img {
+  height: 105px;
+}
