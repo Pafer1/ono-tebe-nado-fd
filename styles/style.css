@@ -40,7 +40,6 @@
   font-size: 18px;
   line-height: 24.3px;
   letter-spacing: 0%;
-  all: unset;
 }
 
 .cover {
@@ -241,7 +240,6 @@
   grid-template-columns: 1fr auto 1fr;
   grid-template-rows: 1fr;
   height: 180px;
-  height: 293px;
   padding: 1px 50px;
 }
 
