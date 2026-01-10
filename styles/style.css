@@ -12,15 +12,18 @@
   gap: 32px;
 }
 
-.header__links-list-item {
+.header__link {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
-  list-style-type: circle;
 }
 
 .header__link_active {
   text-decoration: none;
+}
+
+.header__links-list-item {
+  list-style-type: circle;
 }
 
 .header__links-list-item_no-bullit {
@@ -259,11 +262,15 @@
   flex-direction: column;
   align-items: center;
   font-size: 18px;
+  list-style-type: none;
+}
+
+.footer__menu-link {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
-  list-style-type: none;
 }
+
 .footer__menu-link_active {
   text-decoration: none;
 }
